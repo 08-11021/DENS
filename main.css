@@ -1,0 +1,125 @@
+@font-face {
+    font-family: panama;
+    src: url(panama.otf);
+}
+
+
+
+html,body{
+    position: relative;
+    height: 100%;
+}
+
+.login-container{
+    position: relative;
+    width: 300px;
+    margin: 80px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #fff;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+#output.alert-success{
+    background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+    background: rgb(228, 105, 105);
+}
+
+.logo{
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border: 2px solid #aaa;
+    background-size: cover;
+    background: url("dens_logo.png");
+}
+
+.form-box input{
+    font-family: panama;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    height:40px;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
+      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
+      border-image: linear-gradient(to bottom right, #ffffff 0%, #aeb3b8 100%);
+      border-image-slice: 15%;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+
+}
+
+.form-box input:focus{
+    outline: 0;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
+      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
+      border-image: linear-gradient(to bottom right, #ffffff 0%, #0598d8 100%);
+      border-image-slice: 15%;
+    background: #fafafa;
+
+}
+
+
+
+
+.form-box button.login{
+    margin-top:15px;
+    padding: 10px 20px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #3672a9;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: panama;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    background-color: #42a8d4;
+}
