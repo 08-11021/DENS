@@ -1,29 +1,91 @@
 <html>
 	<head>
-                                <meta charset="utf-8">
-                                <meta name="viewport" content="width=device-width, initial-scale=1">
-                                <title>Snippet - Bootsnipp.com</title>
-                                <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">                              
-                                <link href="main.css" rel="stylesheet">
-                                <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-                                <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-                                <script type="text/javascript" src="main.js"></script>
-                            </head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DENS</title>
+		<link rel="icon" type="image/png" href="favicon1.png">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet">
+	    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+		<link href="main.css" rel="stylesheet">
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+	</head>
 	<body>
+	<!-- navbar-->
+	<nav class="navbar navbar-blue navbar-static-top">
+      <div class="container">
+
+        <div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			<img class="mini-logo" src="mini_logo.png"/>
+		</div>
+
+
+        <div id="navbar" class="navbar-collapse collapse">
+			<!--
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          -->
+          <ul class="nav navbar-nav navbar-right">
+            <form class="navbar-form navbar-left" role="search">
+			  <div class="form-group">
+				<input type="text" class="form-control form-input" placeholder="Correo">
+			  	<input type="password" class="form-control form-input" placeholder="Clave">
+			  </div>
+			  <button type="submit" class="btn btn-info navbar-btn">Entrar</button>
+			</form>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+	<!--container-->
         <div class="container">
-			<div class="login-container">
-		            <div id="output"></div>
+			<div class="row">
+				<div class="col-xs-4 col-xs-push-8 login-container">
 		            <div>
-		            		<img class="logo" src="dens_logo.png"></img>
+						<img class="logo" src="dens_logo.png"/>
 		            </div>
 		            <div class="form-box">
 		                <form action="" method="">
-		                    <input name="user" type="text" placeholder="usuario">
-		                    <input type="password" placeholder="password">
-		                    <button class="btn btn-info btn-block login" type="submit">Entrar</button>
+		                    <input name="firstName" type="text" class= "form-input" placeholder="Nombre">
+							<input name="lastName" type="text" class= "form-input" placeholder="Apellido">
+							<input name="email" type="email" class= "form-input" placeholder="Correo electrónico">
+							<input name="password1" type="password" class= "form-input" placeholder="Clave">
+							<input name="password2" type="password" class= "form-input" placeholder="Repetir clave">
+		                    <button class="btn btn-info btn-block login" class= "form-input" type="submit">Registrar</button>
 		                </form>
 		            </div>
-		        </div>		        
+		        </div>
+			</div>
 		</div>
                             
     </body>

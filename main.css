@@ -1,6 +1,6 @@
 @font-face {
-    font-family: panama;
-    src: url(panama.otf);
+    font-family: kirvy;
+    src: url(quinta.otf);
 }
 
 
@@ -13,8 +13,6 @@ html,body{
 .login-container{
     position: relative;
     width: 300px;
-    margin: 80px auto;
-    padding: 20px 40px 40px;
     text-align: center;
     background: #fff;
 }
@@ -50,13 +48,13 @@ html,body{
     background: url("dens_logo.png");
 }
 
-.form-box input{
-    font-family: panama;
-    border-radius: 10px 10px 10px 10px;
-    margin-bottom: 15px;
+.form-input{
+
+    font-family: kirvy;
+    margin-bottom: 5px;
     width: 100%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     height:40px;
     border: 1px solid transparent;
     -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
@@ -68,7 +66,7 @@ html,body{
 
 }
 
-.form-box input:focus{
+.form-input:focus{
     outline: 0;
     border: 1px solid transparent;
     -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
@@ -93,10 +91,11 @@ html,body{
 }
 
 .btn {
+    text-transform: uppercase;
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
-    font-family: panama;
+    font-family: kirvy;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -111,6 +110,10 @@ html,body{
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
 }
 
 .btn-block {
@@ -122,4 +125,33 @@ html,body{
 
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
     background-color: #42a8d4;
+}
+
+.navbar-blue{
+    background-color: rgba(54, 114, 169, 0.54);
+}
+
+.form-control{
+    height: 32px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    height: 32px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-btn{
+    margin-top: -5px;
+    height:31px;
+}
+
+.mini-logo{
+    width: 40px;
+    margin-top: 8px;
+
 }
