@@ -1,9 +1,12 @@
-{% load staticfiles %}
 @font-face {
-    font-family: kirvy;
-    src: url("quinta.otf");
+    font-family: dens;
+    src: url(dens.otf);
 }
 
+@font-face {
+    font-family: panama;
+    src: url(Panama.otf);
+}
 
 
 html,body{
@@ -46,12 +49,12 @@ html,body{
     margin: 10px auto 30px;
     border: 2px solid #aaa;
     background-size: cover;
-    background: url("../../templates/dens/dens_logo.png");
+    background: url("dens_logo.png");
 }
 
 .form-input{
 
-    font-family: kirvy;
+    font-family: dens;
     margin-bottom: 5px;
     width: 100%;
     padding: 10px;
@@ -96,7 +99,7 @@ html,body{
     display: inline-block;
     margin-bottom: 0;
     font-weight: 400;
-    font-family: kirvy;
+    font-family: panama;
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
@@ -155,4 +158,24 @@ html,body{
     width: 40px;
     margin-top: 8px;
 
+}
+
+.password-input{
+    font-size:20px;
+}
+
+::-webkit-input-placeholder {
+font-size: 14px !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+font-size: 14px !important;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+font-size: 14px !important;
+}
+
+:-ms-input-placeholder {
+font-size: 14px !important;
 }
