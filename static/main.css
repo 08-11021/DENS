@@ -1,0 +1,158 @@
+{% load staticfiles %}
+@font-face {
+    font-family: kirvy;
+    src: url("quinta.otf");
+}
+
+
+
+html,body{
+    position: relative;
+    height: 100%;
+}
+
+.login-container{
+    position: relative;
+    width: 300px;
+    text-align: center;
+    background: #fff;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+#output.alert-success{
+    background: rgb(25, 204, 25);
+}
+
+#output.alert-danger{
+    background: rgb(228, 105, 105);
+}
+
+.logo{
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+.avatar{
+    width: 100px;height: 100px;
+    margin: 10px auto 30px;
+    border: 2px solid #aaa;
+    background-size: cover;
+    background: url("../../templates/dens/dens_logo.png");
+}
+
+.form-input{
+
+    font-family: kirvy;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    height:40px;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
+      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
+      border-image: linear-gradient(to bottom right, #ffffff 0%, #aeb3b8 100%);
+      border-image-slice: 15%;
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+
+}
+
+.form-input:focus{
+    outline: 0;
+    border: 1px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
+      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
+      border-image: linear-gradient(to bottom right, #ffffff 0%, #0598d8 100%);
+      border-image-slice: 15%;
+    background: #fafafa;
+
+}
+
+
+
+
+.form-box button.login{
+    margin-top:15px;
+    padding: 10px 20px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #3672a9;
+}
+
+.btn {
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: kirvy;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+    background-color: #42a8d4;
+}
+
+.navbar-blue{
+    background-color: rgba(54, 114, 169, 0.54);
+}
+
+.form-control{
+    height: 32px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    height: 32px;
+    border-radius: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-btn{
+    margin-top: -5px;
+    height:31px;
+}
+
+.mini-logo{
+    width: 40px;
+    margin-top: 8px;
+
+}
