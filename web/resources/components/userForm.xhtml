@@ -17,12 +17,12 @@
 
 <cc:implementation>
     <h:form>
-        <c:text name="firstName" placeholder="Nombre" rendered="#{cc.attrs.firstName}"/>
-        <c:text name="LastName" placeholder="Apellido" rendered="#{cc.attrs.lastName}"/>
+        <c:text name="firstName" placeholder="#{msg['firstName']}" rendered="#{cc.attrs.firstName}"/>
+        <c:text name="LastName" placeholder="#{msg['lastName']}" rendered="#{cc.attrs.lastName}"/>
         <c:email name="email" rendered="#{cc.attrs.email}"/>
         <c:password name="password1" rendered="#{cc.attrs.password1}"/>
-        <c:password name="password2" placeholder="Repetir clave" rendered="#{cc.attrs.password2}"/>
-        <c:submit value="Registrar"/>
+        <c:password name="password2" placeholder="#{msg['password.repeat']}" rendered="#{cc.attrs.password2}"/>
+        <c:submit value="#{msg['signup']}"/>
     </h:form>
 </cc:implementation>
 </body>
