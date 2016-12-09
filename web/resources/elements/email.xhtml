@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+<cc:interface>
+    <cc:attribute name="name" type="java.lang.String"  required="true"/>
+    <cc:attribute name="placeholder" type="java.lang.String" default="Correo" required="false"/>
+    <cc:attribute name="navbar" type="java.lang.Boolean" default="false" required="false"/>
+</cc:interface>
+
+<cc:implementation>
+    <h:inputText a:name="#{cc.attrs.name}" class= "#{cc.attrs.navbar?'form-control':''} form-input" a:placeholder="#{cc.attrs.placeholder}" a:type="email"/>
+</cc:implementation>
+</body>
+</html>
+
+

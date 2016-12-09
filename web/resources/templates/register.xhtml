@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:ff="http://java.sun.com/jsf/composite/components"
+      xmlns:tt="http://java.sun.com/jsf/composite/templates"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+<cc:interface>
+    <cc:attribute name="align" type="java.lang.String" default="center" required="false"/>
+</cc:interface>
+
+<cc:implementation>
+    <h:panelGroup class="col-xs-4 #{cc.attrs.align.equals('left')?'':(cc.attrs.align.equals('right')?'col-xs-push-8':'col-xs-push-4')} login-container" layout="block">
+
+        <h:graphicImage library="images" name="dens_logo.png" class="logo"/>
+        <h:panelGroup class="form-box" layout="block">
+            <ff:userForm/>
+        </h:panelGroup>
+
+    </h:panelGroup>
+</cc:implementation>
+</body>
+</html>
+
+

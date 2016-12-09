@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+<cc:interface>
+    <cc:attribute name="firstName" type="java.lang.Boolean" default="true" required="false"/>
+    <cc:attribute name="lastName" type="java.lang.Boolean" default="true" required="false"/>
+    <cc:attribute name="email" type="java.lang.Boolean" default="true" required="false"/>
+    <cc:attribute name="password1" type="java.lang.Boolean" default="true" required="false"/>
+    <cc:attribute name="password2" type="java.lang.Boolean" default="true" required="false"/>
+</cc:interface>
+
+<cc:implementation>
+    <h:form>
+        <c:text name="firstName" placeholder="Nombre" rendered="#{cc.attrs.firstName}"/>
+        <c:text name="LastName" placeholder="Apellido" rendered="#{cc.attrs.lastName}"/>
+        <c:email name="email" rendered="#{cc.attrs.email}"/>
+        <c:password name="password1" rendered="#{cc.attrs.password1}"/>
+        <c:password name="password2" placeholder="Repetir clave" rendered="#{cc.attrs.password2}"/>
+        <c:submit value="Registrar"/>
+    </h:form>
+</cc:implementation>
+</body>
+</html>
+
+
