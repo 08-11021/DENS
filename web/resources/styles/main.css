@@ -142,6 +142,7 @@ html,body{
 .form-control{
     height: 32px;
     margin-right:10px;
+    margin-bottom: 0px;
     border-radius: 0px;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -155,13 +156,13 @@ html,body{
 }
 
 .navbar-btn{
-    margin-top: -5px;
+    margin-top: -1px;
     height:31px;
 }
 
 .mini-logo{
     width: 40px;
-    margin-top: 8px;
+    margin-top: 5px;
 
 }
 

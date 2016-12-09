@@ -10,13 +10,12 @@
 <cc:interface>
 
 </cc:interface>
-
 <cc:implementation>
     <h:form class="navbar-form navbar-left">
         <h:panelGroup layout="block" class="form-group">
             <c:email name="email" navbar="true"/>
             <c:password name="password" navbar="true"/>
-            <c:submit value="#{msg['login']}" navbar="true"/>
+            <c:submit value="#{bundle['login']}" navbar="true"/>
         </h:panelGroup>
     </h:form>
 </cc:implementation>
