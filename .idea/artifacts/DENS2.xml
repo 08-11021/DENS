@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="DENS2">
+    <output-path>$PROJECT_DIR$/out/artifacts/DENS2</output-path>
+    <root id="archive" name="DENS2.war">
+      <element id="artifact" artifact-name="DENS:war exploded" />
+    </root>
+  </artifact>
+</component>
