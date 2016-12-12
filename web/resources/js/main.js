@@ -1,39 +1,28 @@
-$(function(){
-var textfield = $("input[name=user]");
-            $('button[type="submit"]').click(function(e) {
-                e.preventDefault();
-                //little validation just to check username
-                if (textfield.val() != "") {
-                    //$("body").scrollTo("#output");
-                    $("#output").addClass("alert alert-success animated fadeInUp").html("Welcome back " + "<span style='text-transform:uppercase'>" + textfield.val() + "</span>");
-                    $("#output").removeClass(' alert-danger');
-                    $("input").css({
-                    "height":"0",
-                    "padding":"0",
-                    "margin":"0",
-                    "opacity":"0"
-                    });
-                    //change button text 
-                    $('button[type="submit"]').html("continue")
-                    .removeClass("btn-info")
-                    .addClass("btn-default").click(function(){
-                    $("input").css({
-                    "height":"auto",
-                    "padding":"10px",
-                    "opacity":"1"
-                    }).val("");
-                    });
-                    
-                    //show avatar
-                    $(".avatar").css({
-                        "background-image": "url('http://api.randomuser.me/0.3.2/portraits/women/35.jpg')"
-                    });
-                } else {
-                    //remove success mesage replaced with error message
-                    $("#output").removeClass(' alert alert-success');
-                    $("#output").addClass("alert alert-danger animated fadeInUp").html("sorry enter a username ");
-                }
-                //console.log(textfield.val());
+$(document).ready(function() {
 
-            });
+
+    /*Menu-toggle*/
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+
+    /*Scroll Spy*/
+    $('body').scrollspy({ target: '#spy', offset:80});
+
+    /*Smooth link animation*/
+    $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+
 });

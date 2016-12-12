@@ -34,17 +34,40 @@
       </h:head>
       <h:body>
          <!--Navbar-->
-         <tt:navBar  login="true"/>
+         <nav class="navbar navbar-blue navbar-static-top">
+            <h:panelGroup layout="block" class="container">
+               <!--Navbar Header-->
+               <h:panelGroup layout="block" class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                  </button>
+                  <h:graphicImage class="mini-logo" library="images" name="mini_logo.png" />
+               </h:panelGroup>
+
+               <!--Navbar Body-->
+               <h:panelGroup id="navbar" layout="block" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                     <ff:loginForm rendered="false"/>
+                  </ul>
+               </h:panelGroup>
+
+            </h:panelGroup>
+         </nav>
 
          <!--App Container-->
 
-         <h:panelGroup class="container" layout="block">
+         <h:panelGroup class="container" layout="block" rendered="false">
             <h:panelGroup class="row" layout="block">
 
                <tt:signup align="right"/>
 
             </h:panelGroup>
          </h:panelGroup>
+
+         <tt:sideBar />
 
       </h:body>
    </f:view>

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ff="http://java.sun.com/jsf/composite/components">
+
+<body>
+<cc:interface>
+    <cc:attribute name="login" type="java.lang.Boolean" default="false" required="false"/>
+</cc:interface>
+
+<cc:implementation>
+    <nav class="navbar navbar-blue navbar-static-top">
+        <h:panelGroup layout="block" class="container">
+            <!--Navbar Header-->
+            <h:panelGroup layout="block" class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h:graphicImage class="mini-logo" library="images" name="mini_logo.png" />
+            </h:panelGroup>
+
+            <!--Navbar Body-->
+            <h:panelGroup id="navbar" layout="block" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <ff:loginForm rendered = "#{cc.attrs.login}"/>
+                </ul>
+            </h:panelGroup>
+
+        </h:panelGroup>
+    </nav>
+</cc:implementation>
+</body>
+</html>
+
+

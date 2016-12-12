@@ -12,6 +12,8 @@
 html,body{
     position: relative;
     height: 100%;
+    font-family: panama;
+    color:white;
 }
 
 .login-container{
@@ -29,9 +31,7 @@ html,body{
     color: #fff;
 }
 
-#output.alert-success{
-    background: rgb(25, 204, 25);
-}
+
 
 #output.alert-danger{
     background: rgb(228, 105, 105);
@@ -130,9 +130,12 @@ html,body{
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
     background-color: #42a8d4;
 }
+.navbar{
+    margin-bottom: 0px;
+}
 
 .navbar-blue{
-    background-color: rgba(54, 114, 169, 0.54);
+    background-color: rgb(117, 175, 224);
 }
 
 .navbar-gray{
@@ -163,6 +166,7 @@ html,body{
 .mini-logo{
     width: 40px;
     margin-top: 5px;
+    margin-left: 40px;
 
 }
 
@@ -185,3 +189,180 @@ font-size: 14px !important;
 :-ms-input-placeholder {
 font-size: 14px !important;
 }
+
+/*___________________________________________________________________________________________*/
+
+#wrapper {
+    padding-left: 150px;
+    transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+    margin-left: -150px;
+    left: 150px;
+    width: 150px;
+    background: transparent;
+    position: fixed;
+    height: 100%;
+    overflow-y: visible;
+    z-index: 1000;
+    transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+    padding-left: 0;
+
+}
+
+#wrapper.active #sidebar-wrapper {
+    left: 0;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+
+
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    line-height: 40px;
+    text-align: right;
+    background-color: rgb(132, 180, 220);
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    padding-right: 20px;
+
+}
+
+.sidebar-nav li a span:before {
+    position: absolute;
+    left: 0;
+    color: #41484c;
+    text-align: center;
+    width: 20px;
+    line-height: 18px;
+}
+
+.sidebar-nav li.active {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: -30px;
+    color: rgba(71, 71, 71, 0.82);
+    background: white;
+    text-decoration: none;
+
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.inactive{
+    box-shadow: -5px 5px 6px -4px rgba(0, 0, 0, 0.4) inset;
+}
+
+
+.inactive:hover, .inactive:focus {
+    opacity: 0.8;
+    color:white;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    color:inherit;
+    cursor: pointer;
+}
+
+.remaining{
+    background-color: transparent !important;
+    height:5000px;
+}
+
+.content-header {
+    height: 65px;
+    line-height: 65px;
+}
+
+.content-header h1 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 65px;
+    display: inline-block;
+}
+
+#menu-toggle {
+
+}
+
+.btn-menu {
+    color: #000;
+}
+
+.inset {
+    padding: 20px;
+}
+
+a{
+    color: inherit;
+}
+
+@media (max-width:767px) {
+
+    #wrapper {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        left: 0;
+    }
+
+    #wrapper.active {
+        position: relative;
+        left: 150px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+        left: 150px;
+        width: 150px;
+        transition: all 0.4s ease 0s;
+    }
+
+    #menu-toggle {
+        display: inline-block;
+    }
+
+    .inset {
+        padding: 15px;
+    }
+
+}
+
+.vcenter{
+    margin-top: 60px;
+}
+
+.container{
+    position: fixed;
+    width: 100%;
+}
+
+
