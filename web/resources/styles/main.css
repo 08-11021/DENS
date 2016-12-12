@@ -67,6 +67,7 @@ html,body{
       border-image-slice: 15%;
     background: #fafafa;
     transition:0.2s ease-in-out;
+    color: #41484c;
 
 }
 
@@ -365,4 +366,8 @@ a{
     width: 100%;
 }
 
+.wallpaper{
+    max-width: 105%;
+
+}
 

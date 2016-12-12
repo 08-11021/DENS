@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="primefaces-5.2-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/primefaces-5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/primefaces-5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

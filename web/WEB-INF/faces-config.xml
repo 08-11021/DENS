@@ -9,6 +9,7 @@
             <supported-locale>en</supported-locale>
 
         </locale-config>
+
         <resource-bundle>
             <base-name>application</base-name>
             <var>bundle</var>

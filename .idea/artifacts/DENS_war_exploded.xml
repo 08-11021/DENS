@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DENS:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/DENS_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DENS" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="DENS/web/Web" />
+    </root>
+  </artifact>
+</component>
