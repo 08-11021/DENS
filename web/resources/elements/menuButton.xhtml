@@ -3,18 +3,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:cc="http://java.sun.com/jsf/composite"
       xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
-      xmlns:h="http://java.sun.com/jsf/html">
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/JSP/Page">
 
 <body>
 <cc:interface>
     <cc:attribute name="name" type="java.lang.String"  required="true"/>
+    <cc:attribute name="iconName" type="java.lang.String"  required="true"/>
     <cc:attribute name="active" type="java.lang.Boolean" default="false" required="false"/>
 
 </cc:interface>
 
 <cc:implementation>
     <li class="#{cc.attrs.active?'active':'inactive'}"> <a>
-        <span class="fa fa-home solo">#{cc.attrs.name}</span></a>
+        <div class="row">
+            <div class="col-xs-4">
+                <h:graphicImage class="menuIcon" value="#{resource['images/icons/patients.png']}" />
+            </div>
+            <div class="col-xs-8">
+                <span class="fa fa-home solo">#{cc.attrs.name}</span>
+            </div>
+        </div>
+    </a>
     </li>
 </cc:implementation>
 </body>
