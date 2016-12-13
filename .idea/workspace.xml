@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae3f57c4-796a-47b5-9a01-579aae88599c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/address-book (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/address-book.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/agenda (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/agenda.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/chat-bubbles (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/chat-bubbles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/clipboard (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/clipboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/dentist-tools-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/human-teeth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/id-card (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/id-card.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/user-network (1).png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/user-network.png" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/frontImage.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/dental-chair.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/man (1).png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resources/images/iconos/man.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/elements/menuButton.xhtml" afterPath="$PROJECT_DIR$/web/resources/elements/menuButton.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/styles/main.css" afterPath="$PROJECT_DIR$/web/resources/styles/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/resources/templates/sideBar.xhtml" afterPath="$PROJECT_DIR$/web/resources/templates/sideBar.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.xhtml" afterPath="$PROJECT_DIR$/web/index.xhtml" />
     </list>
     <ignored path="DENS.iws" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="82" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="82" />
+            <state relative-caret-position="136">
+              <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -95,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuButton.xhtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/home.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menuButton.xhtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/resources/elements/menuButton.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="19" column="89" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="89" />
+            <state relative-caret-position="68">
+              <caret line="10" column="73" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -146,13 +144,13 @@
         <option value="$PROJECT_DIR$/web/design.html" />
         <option value="$PROJECT_DIR$/web/resources/components/sideBar.xhtml" />
         <option value="$PROJECT_DIR$/web/home.xhtml" />
-        <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/web/resources/templates/signup.xhtml" />
         <option value="$PROJECT_DIR$/web/resources/templates/navBar.xhtml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/web/resources/styles/main.css" />
         <option value="$PROJECT_DIR$/web/resources/templates/sideBar.xhtml" />
         <option value="$PROJECT_DIR$/web/resources/elements/menuButton.xhtml" />
+        <option value="$PROJECT_DIR$/web/index.xhtml" />
       </list>
     </option>
   </component>
@@ -218,6 +216,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DENS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DENS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DENS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resource Bundle 'application'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DENS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DENS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,7 +857,7 @@
       <workItem from="1481570797956" duration="410000" />
       <workItem from="1481571300937" duration="1774000" />
       <workItem from="1481638983178" duration="172000" />
-      <workItem from="1481655576265" duration="4723000" />
+      <workItem from="1481655576265" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio a java">
       <created>1481144159359</created>
@@ -885,11 +915,25 @@
       <option name="project" value="LOCAL" />
       <updated>1481575073587</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="carpeta de iconos renombrada">
+      <created>1481661064631</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1481661064631</updated>
+    </task>
+    <task id="LOCAL-00010" summary="carpeta de iconos renombrada">
+      <created>1481661135695</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1481661135695</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61979000" />
+    <option name="totallyTimeSpent" value="63114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="738" extended-state="0" />
@@ -943,7 +987,8 @@
     <MESSAGE value="soporte multilenguaje agregado" />
     <MESSAGE value="sideMenu agregado" />
     <MESSAGE value="iconos nuevos" />
-    <option name="LAST_COMMIT_MESSAGE" value="iconos nuevos" />
+    <MESSAGE value="carpeta de iconos renombrada" />
+    <option name="LAST_COMMIT_MESSAGE" value="carpeta de iconos renombrada" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1186,22 +1231,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/design.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1214,14 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="90" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/templates/signup.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1270,18 +1291,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/resources/elements/menuButton.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="82" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="82" />
+        <state relative-caret-position="68">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/elements/menuButton.xhtml">
+    <entry file="file://$PROJECT_DIR$/web/home.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="89" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="89" />
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/design.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/templates/signup.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
           <folding />
         </state>
       </provider>
