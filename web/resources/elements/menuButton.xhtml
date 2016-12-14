@@ -3,7 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:cc="http://java.sun.com/jsf/composite"
       xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
-      xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/JSP/Page">
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:ff="http://java.sun.com/jsf/composite/components"
+      xmlns:tt="http://java.sun.com/jsf/composite/templates"
+      xmlns:h="http://java.sun.com/jsf/html">
 
 <body>
 <cc:interface>
@@ -16,10 +19,10 @@
 <cc:implementation>
     <li class="#{cc.attrs.active?'active':'inactive'}"> <a>
         <div class="row">
-            <div class="col-xs-4">
-                <h:graphicImage class="menuIcon" value="#{resource['images/icons/patients.png']}" />
+            <div class="col-xs-4 optionName">
+                <img src="/DENS/javax.faces.resource/#{cc.attrs.iconName}.png.xhtml?ln=images" class="menuIcon"/>
             </div>
-            <div class="col-xs-8">
+            <div class="col-xs-8 optionName">
                 <span class="fa fa-home solo">#{cc.attrs.name}</span>
             </div>
         </div>

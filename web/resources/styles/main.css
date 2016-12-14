@@ -38,8 +38,8 @@ html,body{
 }
 
 .logo{
-  max-width: 200px;
-  margin-bottom: 20px;
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 
@@ -62,9 +62,9 @@ html,body{
     height:40px;
     border: 1px solid transparent;
     -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
-      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
-      border-image: linear-gradient(to bottom right, #ffffff 0%, #aeb3b8 100%);
-      border-image-slice: 15%;
+    -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #aeb3b8 100%);
+    border-image: linear-gradient(to bottom right, #ffffff 0%, #aeb3b8 100%);
+    border-image-slice: 15%;
     background: #fafafa;
     transition:0.2s ease-in-out;
     color: #41484c;
@@ -75,9 +75,9 @@ html,body{
     outline: 0;
     border: 1px solid transparent;
     -moz-border-image: -moz-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
-      -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
-      border-image: linear-gradient(to bottom right, #ffffff 0%, #0598d8 100%);
-      border-image-slice: 15%;
+    -webkit-border-image: -webkit-linear-gradient(top left, #ffffff 0%, #0598d8 100%);
+    border-image: linear-gradient(to bottom right, #ffffff 0%, #0598d8 100%);
+    border-image-slice: 15%;
     background: #fafafa;
 
 }
@@ -92,7 +92,7 @@ html,body{
 
 .btn-info {
     color: #fff;
-    background-color: #0F8686;
+    background-color: #3672a9;
 }
 
 .btn {
@@ -136,7 +136,7 @@ html,body{
 }
 
 .navbar-blue{
-    background-color: #00BAB9;
+    background-color: rgb(117, 175, 224);
 }
 
 .navbar-gray{
@@ -176,19 +176,19 @@ html,body{
 }
 
 ::-webkit-input-placeholder {
-font-size: 14px !important;
+    font-size: 14px !important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-font-size: 14px !important;
+    font-size: 14px !important;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-font-size: 14px !important;
+    font-size: 14px !important;
 }
 
 :-ms-input-placeholder {
-font-size: 14px !important;
+    font-size: 14px !important;
 }
 
 /*___________________________________________________________________________________________*/
@@ -237,7 +237,7 @@ font-size: 14px !important;
 .sidebar-nav li {
     line-height: 40px;
     text-align: right;
-    background-color: rgb(132, 180, 220);
+    background-color: rgba(117, 175, 224, 0.25);
 }
 
 .sidebar-nav li a {
@@ -323,7 +323,7 @@ font-size: 14px !important;
 }
 
 a{
-    color: inherit;
+    color: #337ab7;
 }
 
 @media (max-width:767px) {
@@ -372,6 +372,10 @@ a{
 }
 
 .menuIcon{
-    max-width: 130%;
+    max-width: 100%;
+    opacity: 0.8;
 }
 
+.optionName{
+    padding-left: 0px;
+}
