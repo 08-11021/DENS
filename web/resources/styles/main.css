@@ -237,7 +237,7 @@ html,body{
 .sidebar-nav li {
     line-height: 40px;
     text-align: right;
-    background-color: rgb(132, 180, 220);
+    background-color: rgba(117, 175, 224, 0.25);
 }
 
 .sidebar-nav li a {
@@ -323,7 +323,7 @@ html,body{
 }
 
 a{
-    color: inherit;
+    color: #337ab7;
 }
 
 @media (max-width:767px) {
@@ -372,5 +372,10 @@ a{
 }
 
 .menuIcon{
-    max-width: 130%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.optionName{
+    padding-left: 0px;
 }
