@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+<cc:interface>
+
+</cc:interface>
+<cc:implementation>
+    <div class="col-md-8" >
+        <div class="row">
+            <div class="col-xs-4">
+                <c:appCircle name="dates"/>
+                <div class="description">
+                    <h:outputText value="#{bundle['dates.description']}"/>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <c:appCircle name="patients"/>
+                <div class="description">
+                    <h:outputText value="#{bundle['patients.description']}"/>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <c:appCircle name="consults"/>
+                <div class="description">
+                    <h:outputText value="#{bundle['consults.description']}"/>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-push-1 col-xs-4">
+                <c:appCircle name="profile"/>
+                <div class="description">
+                    <h:outputText value="#{bundle['profile.description']}"/>
+                </div>
+            </div>
+            <div class="col-xs-push-1 col-xs-4">
+                <c:appCircle name="beneficiaries"/>
+                <div class="description">
+                    <h:outputText value="#{bundle['beneficiaries.description']}" />
+                </div>
+            </div>
+        </div>
+    </div>
+</cc:implementation>
+</body>
+</html>
+
+

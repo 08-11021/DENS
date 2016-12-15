@@ -284,14 +284,18 @@ html,body{
 
 .inactive:hover, .inactive:focus {
     opacity: 0.8;
-    color:white;
+}
+.active>a{
+    color:rgba(0, 0, 0, 0.7);
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
     background-color: transparent;
-    color:inherit;
+    color:rgba(0, 0, 0, 0.7);
     cursor: pointer;
 }
+
+
 
 .remaining{
     background-color: transparent !important;
@@ -378,4 +382,24 @@ a{
 
 .optionName{
     padding-left: 0px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(225, 233, 240);
+    margin:0 auto;
+}
+
+.circle > img{
+    max-width: 75%;
+    margin-left: 12.5%;
+    margin-top: 12.5%;
+}
+
+.description{
+    color:gray;
+    font-family: dens;
+    text-align: center;
 }

@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:c="http://java.sun.com/jsf/composite/elements"
+      xmlns:ff="http://java.sun.com/jsf/composite/components"
+      xmlns:tt="http://java.sun.com/jsf/composite/templates"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+<body>
+<cc:interface>
+    <cc:attribute name="name" type="java.lang.String"  required="true"/>
+</cc:interface>
+
+<cc:implementation>
+    <div class="circle">
+        <img src="/DENS/javax.faces.resource/#{cc.attrs.name}.png.xhtml?ln=images"/>
+    </div>
+</cc:implementation>
+</body>
+</html>
+
+
